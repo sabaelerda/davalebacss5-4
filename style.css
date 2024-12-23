@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: #F1EBFF;
+}
+
+
+.buy {
+    text-decoration: none;
+    color: #4400DD;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav {
+    color: #5E6577;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options {
+    max-width: 1040px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    display: flex;
+    padding: 12px 24px 12px 8px;
+    background-color: #F1EBFF;
+    border-radius: 16px;
+    gap: 12px;
+    align-items: center;
+}
+
+.searchIcon {
+    padding: 16px 24px;
+    background-color: #40D;
+    border-radius: 16px;
+}
+
+.mainContent {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.mainContent p {
+    color: #5E6577;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+}
+
+.price {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #CCD3E0;
+}
+
+.total {
+    color: #40D;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fees {
+    color: #5E6577;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.firstInfo {
+    max-width: 1040px;
+    width: 100%;
+    border-left: 2px solid #155EEF;
+    border-right: 2px solid #155EEF;
+    border-top: 2px solid #8CE900;
+    border-bottom: 2px solid #DD2590;
+    display: flex;
+    gap: 16px;
+}
+
+.infoFirstP {
+    max-width: 488px;
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 25px;
+}
+
+.snowdown {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #5E6577;
+}
+
+.infoSecondP {
+    max-width: 488px;
+    width: 100%;
+    padding: 16px 23px 88px 16px;
+}
+
+.nestle {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #969696;
+}
+
+.secondInfo {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    padding: 16px 24px;
+    background-color: #EDE6FC;
+    border: 1px solid #4400DD;
+    border-radius: 8px;
+    gap: 16px;
+    align-items: center;
+}
+
+.victorian {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 488px;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    color: #3B3B3B;
+}
+
+.secramento {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.thirdInfo {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    padding: 16px 24px;
+    border: 1px solid #004FE3;
+    align-items: flex-end;
+}
+
+.clink {
+    color: #07081A;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 488px;
+    width: 100%;
+}
+
+.courthouse {
+    color: #155EEF; 
+    font-family: "Inter", sans-serif;
+    max-width: 488px;
+    padding-top: 100px;
+}
+
+.footer {
+    margin-top: 193px;
+    padding-top: 40px;
+    border-top: 1px solid #F1EBFF;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+.images {
+    display: flex;
+    gap: 24px;
+}
